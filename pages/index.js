@@ -17,12 +17,9 @@ class Dashboard extends Component {
   setProvider = (p) => {
     this.setState({ provider: p });
   };
-  a;
-
   setAccounts = (a) => {
     this.setState({ accounts: a });
   };
-
   setConnectedWallet = (w) => {
     this.setState({ connectedWallet: w });
   };
