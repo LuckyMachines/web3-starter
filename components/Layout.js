@@ -7,10 +7,6 @@ const Layout = (props) => {
     <Container>
       <Head>
         <title>Web3 Starter | Lucky Machines</title>
-        <link
-          rel="stylesheet"
-          href="//cdn.jsdelivr.net/npm/semantic-ui@2/dist/semantic.min.css"
-        />
       </Head>
       {props.children}
     </Container>
