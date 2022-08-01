@@ -29,11 +29,9 @@ const ConnectWallet = (props) => {
 
   return (
     <div>
-      <Header>
-        <Button onClick={connectWallet} loading={connectWalletLoading}>
-          Connect
-        </Button>
-      </Header>
+      <Button onClick={connectWallet} loading={connectWalletLoading}>
+        Connect
+      </Button>
       {props.children}
     </div>
   );
