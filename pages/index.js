@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Header, Button } from "semantic-ui-react";
+import { Grid } from "semantic-ui-react";
 import Layout from "../components/Layout";
 import ConnectWallet from "../components/ConnectWallet";
 const settings = require("../settings");
