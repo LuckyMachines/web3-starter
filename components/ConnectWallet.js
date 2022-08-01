@@ -13,8 +13,8 @@ const ConnectWallet = (props) => {
         ethereum.request({ method: "eth_requestAccounts" });
         await window.ethereum.request({ method: "eth_requestAccounts" });
         provider = new Web3(window.ethereum);
-        props.setProvider(provider);
         accounts = await provider.eth.getAccounts();
+        props.setProvider(provider);
         props.setAccounts(accounts);
         props.setConnectedWallet(accounts[0]);
         console.log("Wallet connected:", accounts[0]);
