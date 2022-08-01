@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Header, Button } from "semantic-ui-react";
+import { Button } from "semantic-ui-react";
 import Web3 from "web3";
 
 const ConnectWallet = (props) => {
